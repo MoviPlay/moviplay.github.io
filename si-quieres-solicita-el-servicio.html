@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Servicio - MoviPlay</title>
+    <style>
+        body {
+            background-image: url('https://github.com/MoviPlay/Movi-Ajustes/blob/main/Movi%20(1).jpg?raw=true');
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            max-width: 400px;
+            margin: 50px auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: rgb(0, 0, 0);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:NicaSAT@outlook.es" method="post" enctype="text/plain">
+        <h2>MoviPlay - Solicitud de Servicio de TV</h2>
+        <label for="correo">Escribe tu correo:</label><br>
+        <input type="text" id="correo" name="correo"><br><br>
+        <input type="hidden" name="subject" value="Solicitud de Servicio de TV">
+        <input type="hidden" name="body" value="Mandado la Solicitud de ver TV">
+        <input type="submit" value="Enviar Solicitud">
+    </form>
+    <footer>
+        <p>All Rights Reserved 2024.</p>
+    </footer>
+</body>
+</html>
