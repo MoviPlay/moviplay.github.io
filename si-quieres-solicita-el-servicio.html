@@ -3,45 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solicitud de Servicio - MoviPlay</title>
+    <title>MoviPlay - Solicitud de Servicio (TV)</title>
     <style>
         body {
             background-image: url('https://github.com/MoviPlay/Movi-Ajustes/blob/main/Movi%20(1).jpg?raw=true');
             background-size: cover;
-            color: white;
+            background-position: center;
+            color: black;
             font-family: Arial, sans-serif;
         }
-        form {
-            max-width: 400px;
-            margin: 50px auto;
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 20px;
-            border-radius: 10px;
-        }
-        input[type="submit"] {
-            background-color: #007bff;
-            color: rgb(0, 0, 0);
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
+        /* Estilos adicionales aquí */
     </style>
 </head>
 <body>
-
-    <!DOCTYPE html> 
-    <html> 
-    <head> 
-    <title>Enviar solicitud para ver Movi</title> 
-    </head> 
-    <body> 
-    <h1>Contacto</h1> 
-    <p>Manda correo con el siguiente link:
-        (Puden tardar de 1 minuto a 5 minutos)
-        <a href="mailto:elcorreoquequieres@correo.com?Subject=Aquí%20el%20asunto%20del%20mail">Aquí el texto que quieras</a>
-    </body> 
-    </html>
+    <header>
+        <h1>Solicitud de Servicio (TV)</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>MoviPlay</h2>
+            <p>Para acceder al servicio de TV de MoviPlay, por favor, complete el siguiente formulario:</p>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required><br>
+                
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" autocomplete="email" required><br>
+                
+                <input type="submit" value="Enviar solicitud">
+            </form>
+            <p>Nota: Al hacer clic en "Enviar solicitud", usted acepta recibir información sobre los servicios de TV de MoviPlay en su correo electrónico proporcionado.</p>
+        </section>
+    </main>
+    
     <footer>
         <p>All Rights Reserved 2024.</p>
     </footer>
